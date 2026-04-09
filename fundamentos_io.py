@@ -38,11 +38,11 @@ try:
     number_three = int(input('Ingrese el tercer numero: '))
 
     suma = number_one + number_two + number_three
-    print('La resultado es ', suma,', de la suma de los numero ', number_one, ', ', number_two, ', y ', number_three, sep='')  
-    print('La resultado es {}, de la suma de los numero {}, {}, y {}'.format(suma, number_one, number_two, number_three))
-    print(f'La resultado es {suma}, de la suma de los numero {number_one}, {number_two}, y {number_three}')
+    #print('El resultado es ', suma,', de la suma de los numero ', number_one, ', ', number_two, ', y ', number_three, sep='')  
+    #print('El resultado es {}, de la suma de los numero {}, {}, y {}'.format(suma, number_one, number_two, number_three))
+    print(f'El resultado es {suma}, de la suma de los numeros {number_one}, {number_two}, y {number_three}')
 except ValueError:
     print('Error: Por favor ingrese un numero valido.')
 
 
-# La resultado es 19, de la suma de los numero 1, 5, y 13
+# El resultado es 19, de la suma de los numeros 1, 5, y 13
