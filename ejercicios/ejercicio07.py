@@ -14,4 +14,19 @@
 
 
 
-# INICIO DE PROGRAMA
+# INICIO DE PROGRAMA PARA EVALUAR LA EDAD DE UNA PERSONA
+
+# Ingresar la edad
+edad = int(input("Ingrese la edad de la persona: "))
+
+# estructura de decisión para evaluar la edad
+if edad < 18:
+    categoria = "menor de edad"
+elif edad < 65:
+    categoria = "mayor de edad"
+else:
+    categoria = "adulto mayor"
+
+# Mostrar resultado
+print(f"Edad: {edad}")
+print(f"Resultado: Es un {categoria}")

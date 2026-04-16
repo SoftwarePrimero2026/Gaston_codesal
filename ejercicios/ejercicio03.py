@@ -13,4 +13,15 @@
 
 
 
-# INICIO DE PROGRAMA
+# INICIO DE PROGRAMA 
+# Programa sencillo para ingresar y mostrar datos de una persona
+
+# Ingresar el nombre
+nombre = input("Ingrese el nombre: ")
+# Ingresar el apellido
+apellido = input("Ingrese el apellido: ")
+# Ingresar la edad
+edad = int(input("Ingrese la edad: "))
+
+# Mostrar los datos en una sola línea
+print(f"Nombre completo: {nombre} {apellido}, Edad: {edad}")

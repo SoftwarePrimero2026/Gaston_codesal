@@ -16,4 +16,20 @@
 
 
 
-# INICIO DE PROGRAMA
+# INICIO DE PROGRAMA PARA EVALUAR DESCUENTO POR EDAD Y CARNET DE ESTUDIANTE
+
+
+# Ingresar datos
+edad = int(input("Ingrese la edad: "))
+carnet = input("¿Posee carnet de estudiante? (si/no): ").lower()
+
+# Evaluar condiciones
+tiene_descuento = (edad >= 18) and (carnet == "si")
+
+# Mostrar resultado
+print(f"Edad: {edad}")
+print(f"Carnet: {carnet.title()}")
+if tiene_descuento:
+    print("Resultado: Accede al descuento")
+else:
+    print("Resultado: No accede al descuento")

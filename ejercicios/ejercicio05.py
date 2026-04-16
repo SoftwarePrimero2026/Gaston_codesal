@@ -16,4 +16,18 @@
 
 
 
-# INICIO DE PROGRAMA
+# INICIO DE PROGRAMA PARA COMPARAR DOS NUMEROS ENTEROS 
+
+
+# Ingresar los números
+num1 = int(input("Ingrese el primer número: "))
+num2 = int(input("Ingrese el segundo número: "))
+
+# Proceso para comparar los valores
+if num1 == num2:
+    print("Los numeros son iguales")
+elif num1 > num2:
+    print(f"El numero {num1} es mayor que {num2}")
+else:
+    print(f"El numero {num2} es mayor que {num1}") 
+
