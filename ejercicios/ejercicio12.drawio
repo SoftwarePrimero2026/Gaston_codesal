@@ -1,0 +1,88 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Descuento" id="qDC4LzW4APvY3fiGve4r">
+    <mxGraphModel dx="1414" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QfvdaX7o0oMvao0B7xZD-13" parent="1" style="ellipse;html=1;" value="Inicio" vertex="1">
+          <mxGeometry height="60" width="140" x="334" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="QfvdaX7o0oMvao0B7xZD-14" parent="1" style="rounded=0;html=1;" value="Inicializar lista [ ] y contador = 0" vertex="1">
+          <mxGeometry height="60" width="260" x="274" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="QfvdaX7o0oMvao0B7xZD-15" parent="1" style="shape=parallelogram;html=1;" value="Ingresar nombre" vertex="1">
+          <mxGeometry height="60" width="260" x="274" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="QfvdaX7o0oMvao0B7xZD-16" parent="1" style="rhombus;html=1;" value="¿Nombre = &#39;salir&#39;?" vertex="1">
+          <mxGeometry height="100" width="200" x="304" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="QfvdaX7o0oMvao0B7xZD-17" parent="1" style="shape=parallelogram;html=1;" value="Ingresar edad" vertex="1">
+          <mxGeometry height="60" width="220" x="140" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="QfvdaX7o0oMvao0B7xZD-18" parent="1" style="rounded=0;html=1;" value="Guardar alumno" vertex="1">
+          <mxGeometry height="60" width="220" x="130" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="QfvdaX7o0oMvao0B7xZD-19" parent="1" style="rhombus;html=1;" value="¿Edad ≥ 18?" vertex="1">
+          <mxGeometry height="100" width="220" x="130" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="QfvdaX7o0oMvao0B7xZD-20" parent="1" style="rounded=0;html=1;" value="contador++" vertex="1">
+          <mxGeometry height="60" width="220" x="130" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="QfvdaX7o0oMvao0B7xZD-21" parent="1" style="shape=parallelogram;html=1;" value="Mostrar lista de alumnos" vertex="1">
+          <mxGeometry height="60" width="260" x="454" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="QfvdaX7o0oMvao0B7xZD-22" parent="1" style="shape=parallelogram;html=1;" value="Mostrar total ≥ 18" vertex="1">
+          <mxGeometry height="60" width="260" x="454" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="QfvdaX7o0oMvao0B7xZD-23" parent="1" style="ellipse;html=1;" value="Fin" vertex="1">
+          <mxGeometry height="60" width="140" x="494" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="QfvdaX7o0oMvao0B7xZD-24" edge="1" parent="1" source="QfvdaX7o0oMvao0B7xZD-13" style="endArrow=block;" target="QfvdaX7o0oMvao0B7xZD-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QfvdaX7o0oMvao0B7xZD-25" edge="1" parent="1" source="QfvdaX7o0oMvao0B7xZD-14" style="endArrow=block;" target="QfvdaX7o0oMvao0B7xZD-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QfvdaX7o0oMvao0B7xZD-26" edge="1" parent="1" source="QfvdaX7o0oMvao0B7xZD-15" style="endArrow=block;" target="QfvdaX7o0oMvao0B7xZD-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QfvdaX7o0oMvao0B7xZD-27" edge="1" parent="1" source="QfvdaX7o0oMvao0B7xZD-16" style="endArrow=block;" target="QfvdaX7o0oMvao0B7xZD-17" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QfvdaX7o0oMvao0B7xZD-28" edge="1" parent="1" source="QfvdaX7o0oMvao0B7xZD-16" style="endArrow=block;" target="QfvdaX7o0oMvao0B7xZD-21" value="Sí">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QfvdaX7o0oMvao0B7xZD-29" edge="1" parent="1" source="QfvdaX7o0oMvao0B7xZD-17" style="endArrow=block;" target="QfvdaX7o0oMvao0B7xZD-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QfvdaX7o0oMvao0B7xZD-30" edge="1" parent="1" source="QfvdaX7o0oMvao0B7xZD-18" style="endArrow=block;" target="QfvdaX7o0oMvao0B7xZD-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QfvdaX7o0oMvao0B7xZD-31" edge="1" parent="1" source="QfvdaX7o0oMvao0B7xZD-19" style="endArrow=block;" target="QfvdaX7o0oMvao0B7xZD-20" value="Sí">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QfvdaX7o0oMvao0B7xZD-32" edge="1" parent="1" source="QfvdaX7o0oMvao0B7xZD-19" style="endArrow=block;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="QfvdaX7o0oMvao0B7xZD-15" value="No">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="90" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QfvdaX7o0oMvao0B7xZD-33" edge="1" parent="1" source="QfvdaX7o0oMvao0B7xZD-20" style="endArrow=block;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="QfvdaX7o0oMvao0B7xZD-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="590" />
+            </Array>
+            <mxPoint x="80" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QfvdaX7o0oMvao0B7xZD-34" edge="1" parent="1" source="QfvdaX7o0oMvao0B7xZD-21" style="endArrow=block;" target="QfvdaX7o0oMvao0B7xZD-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QfvdaX7o0oMvao0B7xZD-35" edge="1" parent="1" source="QfvdaX7o0oMvao0B7xZD-22" style="endArrow=block;" target="QfvdaX7o0oMvao0B7xZD-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

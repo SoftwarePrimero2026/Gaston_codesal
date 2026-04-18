@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Descuento" id="qDC4LzW4APvY3fiGve4r">
+    <mxGraphModel dx="1414" dy="823" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QfvdaX7o0oMvao0B7xZD-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Inicio" vertex="1">
+          <mxGeometry height="60" width="140" x="300" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="QfvdaX7o0oMvao0B7xZD-2" parent="1" style="shape=parallelogram;whiteSpace=wrap;html=1;" value="Ingresar edad y carnet (sí/no)" vertex="1">
+          <mxGeometry height="60" width="260" x="240" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QfvdaX7o0oMvao0B7xZD-3" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="¿Edad &amp;lt; 18 y carnet = sí?" vertex="1">
+          <mxGeometry height="100" width="200" x="270" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="QfvdaX7o0oMvao0B7xZD-4" parent="1" style="shape=parallelogram;whiteSpace=wrap;html=1;" value="Accede al descuento" vertex="1">
+          <mxGeometry height="60" width="220" x="80" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="QfvdaX7o0oMvao0B7xZD-5" parent="1" style="shape=parallelogram;whiteSpace=wrap;html=1;" value="No accede al descuento" vertex="1">
+          <mxGeometry height="60" width="220" x="420" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="QfvdaX7o0oMvao0B7xZD-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Fin" vertex="1">
+          <mxGeometry height="60" width="140" x="300" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="QfvdaX7o0oMvao0B7xZD-7" edge="1" parent="1" source="QfvdaX7o0oMvao0B7xZD-1" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=1;" target="QfvdaX7o0oMvao0B7xZD-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QfvdaX7o0oMvao0B7xZD-8" edge="1" parent="1" source="QfvdaX7o0oMvao0B7xZD-2" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=1;" target="QfvdaX7o0oMvao0B7xZD-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QfvdaX7o0oMvao0B7xZD-9" edge="1" parent="1" source="QfvdaX7o0oMvao0B7xZD-3" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=1;" target="QfvdaX7o0oMvao0B7xZD-4" value="Sí">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QfvdaX7o0oMvao0B7xZD-10" edge="1" parent="1" source="QfvdaX7o0oMvao0B7xZD-3" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=1;" target="QfvdaX7o0oMvao0B7xZD-5" value="No">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QfvdaX7o0oMvao0B7xZD-11" edge="1" parent="1" source="QfvdaX7o0oMvao0B7xZD-4" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=1;" target="QfvdaX7o0oMvao0B7xZD-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QfvdaX7o0oMvao0B7xZD-12" edge="1" parent="1" source="QfvdaX7o0oMvao0B7xZD-5" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;html=1;" target="QfvdaX7o0oMvao0B7xZD-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
