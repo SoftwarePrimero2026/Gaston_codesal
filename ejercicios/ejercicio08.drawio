@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <mxfile host="app.diagrams.net">
   <diagram name="Diagrama Suma Numeros" id="F0nbnmPmqmzyfWuNzgcY">
     <mxGraphModel dx="860" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
@@ -83,3 +84,90 @@
     </mxGraphModel>
   </diagram>
 </mxfile>
+=======
+<mxfile host="app.diagrams.net">
+  <diagram name="Diagrama Suma Numeros" id="F0nbnmPmqmzyfWuNzgcY">
+    <mxGraphModel dx="860" dy="484" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DavCNEerATvdfs6wIuS3-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="INICIO" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="DavCNEerATvdfs6wIuS3-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Solicitar número&#xa;al usuario" vertex="1">
+          <mxGeometry height="60" width="160" x="340" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="DavCNEerATvdfs6wIuS3-3" edge="1" parent="1" source="DavCNEerATvdfs6wIuS3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="DavCNEerATvdfs6wIuS3-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DavCNEerATvdfs6wIuS3-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Leer Num" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="DavCNEerATvdfs6wIuS3-5" edge="1" parent="1" source="DavCNEerATvdfs6wIuS3-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="DavCNEerATvdfs6wIuS3-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DavCNEerATvdfs6wIuS3-6" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="¿Num = 0?" vertex="1">
+          <mxGeometry height="80" width="120" x="360" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="DavCNEerATvdfs6wIuS3-7" edge="1" parent="1" source="DavCNEerATvdfs6wIuS3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="DavCNEerATvdfs6wIuS3-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DavCNEerATvdfs6wIuS3-10" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Suma = Suma + Num" vertex="1">
+          <mxGeometry height="60" width="140" x="180" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="DavCNEerATvdfs6wIuS3-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Contador =&#xa;Contador + 1" vertex="1">
+          <mxGeometry height="60" width="140" x="500" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="DavCNEerATvdfs6wIuS3-12" edge="1" parent="1" source="DavCNEerATvdfs6wIuS3-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="400" as="sourcePoint" />
+            <mxPoint x="240" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DavCNEerATvdfs6wIuS3-13" edge="1" parent="1" source="DavCNEerATvdfs6wIuS3-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="DavCNEerATvdfs6wIuS3-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DavCNEerATvdfs6wIuS3-14" edge="1" parent="1" source="DavCNEerATvdfs6wIuS3-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="DavCNEerATvdfs6wIuS3-2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DavCNEerATvdfs6wIuS3-15" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="FIN" vertex="1">
+          <mxGeometry height="60" width="120" x="360" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="DavCNEerATvdfs6wIuS3-16" edge="1" parent="1" source="DavCNEerATvdfs6wIuS3-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="DavCNEerATvdfs6wIuS3-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DavCNEerATvdfs6wIuS3-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Mostrar:&#xa;Suma total&#xa;Cantidad números" vertex="1">
+          <mxGeometry height="60" width="160" x="340" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="DavCNEerATvdfs6wIuS3-18" edge="1" parent="1" source="DavCNEerATvdfs6wIuS3-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="DavCNEerATvdfs6wIuS3-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DavCNEerATvdfs6wIuS3-21" edge="1" parent="1" source="DavCNEerATvdfs6wIuS3-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="DavCNEerATvdfs6wIuS3-20" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="440" as="sourcePoint" />
+            <mxPoint x="420" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DavCNEerATvdfs6wIuS3-20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="SI" vertex="1">
+          <mxGeometry height="30" width="60" x="390" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="DavCNEerATvdfs6wIuS3-23" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="DavCNEerATvdfs6wIuS3-22" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="400" as="sourcePoint" />
+            <mxPoint x="240" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DavCNEerATvdfs6wIuS3-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="NO" vertex="1">
+          <mxGeometry height="30" width="60" x="240" y="385" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
+>>>>>>> 4ef92feaaf1e6ebbf28195cafbb0dc791a5db6c9
