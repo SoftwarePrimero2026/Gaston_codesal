@@ -17,4 +17,18 @@
 
 
 
-# INICIO DE PROGRAMA
+# INICIO DE PROGRAMA PARA INGRESAR Y MOSTRAR 5 PRODUCTOS
+
+# Crear lista vacía
+productos = []
+
+# Ingresar 5 productos
+print("Ingrese 5 nombres de productos:")
+for i in range(5):
+    producto = input(f"Producto {i+1}: ")
+    productos.append(producto)
+
+# Mostrar lista numerada
+print("\nLista de productos:")
+for i in range(len(productos)):
+    print(f"{i+1}. {productos[i]}")

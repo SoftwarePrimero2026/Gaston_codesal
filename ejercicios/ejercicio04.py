@@ -16,4 +16,22 @@
 
 
 
-# INICIO DE PROGRAMA
+# INICIO DE PROGRAMA 
+
+# Programa para realizar operaciones básicas con 2 números enteros
+
+# Ingreso para los números 
+num1 = int(input("Ingrese el primer número: "))
+num2 = int(input("Ingrese el segundo número: "))
+
+# Calcular las operaciones
+suma = num1 + num2
+resta = num1 - num2
+multiplicacion = num1 * num2
+division = num1 / num2
+
+# Mostrar los resultados
+print(f"Suma: {suma}")
+print(f"Resta: {resta}")
+print(f"Multiplicacion: {multiplicacion}")
+print(f"Division: {division}")

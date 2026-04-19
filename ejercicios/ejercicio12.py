@@ -19,4 +19,29 @@
 
 
 
-# INICIO DE PROGRAMA
+# INICIO DE PROGRAMA PARA REGISTRAR ALUMNOS HASTA "SALIR"
+
+# Creacion de listas para almacenar los datos
+alumnos = []
+mayores_18 = 0
+
+# Carga de datos
+print("Ingrese nombres de alumnos (escriba 'salir' para terminar):")
+nombre = input("Nombre: ")
+
+# Mientras el nombre no sea "salir", se solicita la edad y se guardan los datos
+while nombre.lower() != "salir":
+    edad = int(input("Edad: "))
+    alumnos.append((nombre, edad))
+# Contar cuantos alumnos son mayores o iguales a 18 anos    
+    if edad >= 18:
+        mayores_18 += 1
+    
+    nombre = input("Nombre: ")
+
+# Mostrar resultados
+print("\nLista de alumnos:")
+for i, (nom, ed) in enumerate(alumnos, 1):
+    print(f"{i}. Nombre: {nom}, Edad: {ed}")
+
+print(f"Total de alumnos mayores o iguales a 18 anos: {mayores_18}")

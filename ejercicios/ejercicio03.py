@@ -13,4 +13,33 @@
 
 
 
-# INICIO DE PROGRAMA
+# INICIO DE PROGRAMA 
+# Programa sencillo para ingresar y mostrar datos de una persona
+
+# Ingresar el nombre
+nombre = input("Ingrese el nombre: ")
+#tratamiento de error para el nombre 
+try:
+    if not nombre.isalpha():
+        raise ValueError("El nombre debe contener solo letras.")
+except ValueError as e:
+    print(e)
+# Ingresar el apellido
+apellido = input("Ingrese el apellido: ")
+#tratamiento de error para el apellido
+try:
+    if not apellido.isalpha():
+        raise ValueError("El apellido debe contener solo letras.")
+except ValueError as e:
+    print(e)
+# Ingresar la edad
+edad = int(input("Ingrese la edad: "))
+#tratamiento de error para la edad
+try:
+    if edad < 0:
+        raise ValueError("La edad debe ser un número positivo.")
+except ValueError as e:
+    print(e)
+
+# Mostrar los datos en una sola línea
+print(f"Nombre completo: {nombre} {apellido}, Edad: {edad}")

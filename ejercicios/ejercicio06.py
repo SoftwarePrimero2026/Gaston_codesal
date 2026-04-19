@@ -14,4 +14,24 @@
 
 
 
-# INICIO DE PROGRAMA
+# INICIO DE PROGRAMA PARA EVALUAR LA NOTA DE UN ALUMNO
+
+
+# Ingresar la nota
+nota = int(input("Ingrese la nota del alumno (0-10): "))
+
+# Evaluar la condición
+if nota >= 9:
+    condicion = "Excelente"
+elif nota >= 7:
+    condicion = "Muy bien"
+elif nota >= 5:
+    condicion = "Bien"
+elif nota >= 3:
+    condicion = "Regular"
+else:
+    condicion = "Insuficiente"
+
+# Mostrar resultado
+print(f"Nota: {nota}")
+print(f"Condicion: {condicion}")

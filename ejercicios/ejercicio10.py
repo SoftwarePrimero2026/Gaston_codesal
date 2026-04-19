@@ -18,4 +18,14 @@
 
 
 
-# INICIO DE PROGRAMA
+# INICIO DE PROGRAMA PARA ANALIZAR TEXTO
+
+
+# Ingreso de texto
+texto = input("Ingrese una palabra o frase corta: ")
+
+# Mostrar resultados
+print(f"Texto original: {texto}")
+print(f"Mayusculas: {texto.upper()}")
+print(f"Minusculas: {texto.lower()}")
+print(f"Cantidad de caracteres: {len(texto)}")
